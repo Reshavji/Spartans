@@ -11,12 +11,13 @@ body {
     width: 100%;
 	background-image: url('https://mobimg.b-cdn.net/v3/fetch/9d/9d7281acc2d475ae9eb493cfcb51fdea.jpeg');
 	background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
+        background-repeat: no-repeat;
+        display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	margin: -20px 0 50px;
+	position:fixed;
 }
 
 h1 {
