@@ -11,14 +11,15 @@ body {
     width: 100%;
 	background-image: url('https://mobimg.b-cdn.net/v3/fetch/9d/9d7281acc2d475ae9eb493cfcb51fdea.jpeg');
 	background-size: cover;
-        background-repeat: no-repeat;
-        display: flex;
+    background-repeat: no-repeat;
+    display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	margin: -20px 0 50px;
-	position:fixed;
+	margin: 5px 0 50px;
+	position: fixed;
 }
+
 
 h1 {
 	font-weight: bold;
@@ -257,3 +258,46 @@ input {
     color: white;
   }
 
+  .form-popup {
+	position: absolute;
+	display: none;
+    height: 300px;
+    width:600px;
+    border: none;
+    background-color: rgb(19, 99, 238);
+    border-radius: 20px;
+   cursor: pointer;
+   overflow: hidden;
+   transition: .2s;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password]{
+	border: none;
+	
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+	background-color: #ea6411;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  /* Add a red background color to the cancel button */
+ .cancel{
+	float: right;
+	margin-right:10px;
+	color:white;
+	transition: .2s;
+ }
+ .cancel:hover{
+	transform: rotate(180deg);
+ }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+	opacity: 1;
+  }
